@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/slava/Projects/calendar/main.cpp
+iostream
+-
+chrono
+-
+ctime
+-
+string
+-
+termios.h
+-
+task.hpp
+/home/slava/Projects/calendar/task.hpp
+manager.hpp
+/home/slava/Projects/calendar/manager.hpp
+
+/home/slava/Projects/calendar/manager.cpp
+string
+-
+iostream
+-
+cstdio
+-
+termios.h
+-
+manager.hpp
+/home/slava/Projects/calendar/manager.hpp
+
+/home/slava/Projects/calendar/manager.hpp
+
+/home/slava/Projects/calendar/task.hpp
+
