@@ -15,16 +15,16 @@ int main(int argc, char **argv){
 	firstTask.print();
 	ManagerCommand mainTerminal = ManagerCommand();
 	mainTerminal.setCanonMode(false);
-	//while(true){
+	while(true){
 		 //uint16_t sym = mainTerminal.readSymbol();
 		 char sym = mainTerminal.readCommand();
 		 if (sym == '0'){
-			 exit(0);
-			 //break;
+			 //exit(0);
+			 break;
 			 }
 		 //else
 			 std::cout << sym;
-	//}
+	}
 	std::cout << std::endl;
 	mainTerminal.setCanonMode(true);
 	std::cout << "Конец программы" << std::endl;
