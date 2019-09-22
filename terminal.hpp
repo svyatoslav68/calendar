@@ -1,9 +1,9 @@
 /********************** Заголовочный файл класса Terminal, ******************
 *********************** задача которого установить режимы  ******************
 *********************** работы системного терминала        ******************
-***********************            manager.hpp            ******************
+***********************            terminal.hpp            ******************
 ****************************************************************************/
-class ManagerCommand {
+class Terminal {
 private:
 	uint8_t std_in;
 	uint8_t std_out;
@@ -11,10 +11,8 @@ private:
 	struct termios begin_setting;
 	uint32_t baudrate;
 public:
-	ManagerCommand();
-	~ManagerCommand();
+	Terminal();
+	~Terminal();
 	void setCanonMode(bool mode=false);
-	char readCommand();
-	std::string readString();
 };
 

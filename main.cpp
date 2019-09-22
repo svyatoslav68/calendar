@@ -7,13 +7,13 @@
 #include <string>
 #include <termios.h>
 #include "task.hpp"
-#include "manager.hpp"
+#include "terminal.hpp"
 
 
 int main(int argc, char **argv){
 	Task firstTask = Task();
 	firstTask.print();
-	ManagerCommand mainTerminal = ManagerCommand();
+	Terminal mainTerminal = Terminal();
 	mainTerminal.setCanonMode(false);
 	while(true){
 		 //uint16_t sym = mainTerminal.readSymbol();

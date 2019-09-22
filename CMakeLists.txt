@@ -11,11 +11,11 @@ set(TARGET
 		calendar)
 
 set(SOURCES
-		main.cpp task.cpp manager.cpp
+		main.cpp task.cpp terminal.cpp menu.cpp
 	)
 
 set(HEADERS
-		task.hpp manager.hpp
+		task.hpp terminal.hpp menu.hpp
 	)
 
 add_executable(${TARGET} ${SOURCES} ${HEADERS}) #Собрать файл calendar из файла main.cpp
