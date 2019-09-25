@@ -17,7 +17,8 @@ int main(int argc, char **argv){
 	mainTerminal.setCanonMode(false);
 	while(true){
 		 //uint16_t sym = mainTerminal.readSymbol();
-		 char sym = mainTerminal.readCommand();
+		 char sym;
+		 std::cin >> sym;
 		 if (sym == '0'){
 			 //exit(0);
 			 break;
