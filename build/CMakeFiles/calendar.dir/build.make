@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/slava/Projects/calendar
+CMAKE_SOURCE_DIR = /home/slava/Net_Projects/calendar
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/slava/Projects/calendar/build
+CMAKE_BINARY_DIR = /home/slava/Net_Projects/calendar/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/calendar.dir/depend.make
@@ -59,58 +59,73 @@ include CMakeFiles/calendar.dir/flags.make
 
 CMakeFiles/calendar.dir/main.cpp.o: CMakeFiles/calendar.dir/flags.make
 CMakeFiles/calendar.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/slava/Projects/calendar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/calendar.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/calendar.dir/main.cpp.o -c /home/slava/Projects/calendar/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/slava/Net_Projects/calendar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/calendar.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/calendar.dir/main.cpp.o -c /home/slava/Net_Projects/calendar/main.cpp
 
 CMakeFiles/calendar.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/calendar.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/slava/Projects/calendar/main.cpp > CMakeFiles/calendar.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/slava/Net_Projects/calendar/main.cpp > CMakeFiles/calendar.dir/main.cpp.i
 
 CMakeFiles/calendar.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calendar.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/slava/Projects/calendar/main.cpp -o CMakeFiles/calendar.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/slava/Net_Projects/calendar/main.cpp -o CMakeFiles/calendar.dir/main.cpp.s
 
 CMakeFiles/calendar.dir/task.cpp.o: CMakeFiles/calendar.dir/flags.make
 CMakeFiles/calendar.dir/task.cpp.o: ../task.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/slava/Projects/calendar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/calendar.dir/task.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/calendar.dir/task.cpp.o -c /home/slava/Projects/calendar/task.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/slava/Net_Projects/calendar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/calendar.dir/task.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/calendar.dir/task.cpp.o -c /home/slava/Net_Projects/calendar/task.cpp
 
 CMakeFiles/calendar.dir/task.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/calendar.dir/task.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/slava/Projects/calendar/task.cpp > CMakeFiles/calendar.dir/task.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/slava/Net_Projects/calendar/task.cpp > CMakeFiles/calendar.dir/task.cpp.i
 
 CMakeFiles/calendar.dir/task.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calendar.dir/task.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/slava/Projects/calendar/task.cpp -o CMakeFiles/calendar.dir/task.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/slava/Net_Projects/calendar/task.cpp -o CMakeFiles/calendar.dir/task.cpp.s
 
-CMakeFiles/calendar.dir/manager.cpp.o: CMakeFiles/calendar.dir/flags.make
-CMakeFiles/calendar.dir/manager.cpp.o: ../manager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/slava/Projects/calendar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/calendar.dir/manager.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/calendar.dir/manager.cpp.o -c /home/slava/Projects/calendar/manager.cpp
+CMakeFiles/calendar.dir/terminal.cpp.o: CMakeFiles/calendar.dir/flags.make
+CMakeFiles/calendar.dir/terminal.cpp.o: ../terminal.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/slava/Net_Projects/calendar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/calendar.dir/terminal.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/calendar.dir/terminal.cpp.o -c /home/slava/Net_Projects/calendar/terminal.cpp
 
-CMakeFiles/calendar.dir/manager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/calendar.dir/manager.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/slava/Projects/calendar/manager.cpp > CMakeFiles/calendar.dir/manager.cpp.i
+CMakeFiles/calendar.dir/terminal.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/calendar.dir/terminal.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/slava/Net_Projects/calendar/terminal.cpp > CMakeFiles/calendar.dir/terminal.cpp.i
 
-CMakeFiles/calendar.dir/manager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calendar.dir/manager.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/slava/Projects/calendar/manager.cpp -o CMakeFiles/calendar.dir/manager.cpp.s
+CMakeFiles/calendar.dir/terminal.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calendar.dir/terminal.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/slava/Net_Projects/calendar/terminal.cpp -o CMakeFiles/calendar.dir/terminal.cpp.s
+
+CMakeFiles/calendar.dir/menu.cpp.o: CMakeFiles/calendar.dir/flags.make
+CMakeFiles/calendar.dir/menu.cpp.o: ../menu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/slava/Net_Projects/calendar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/calendar.dir/menu.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/calendar.dir/menu.cpp.o -c /home/slava/Net_Projects/calendar/menu.cpp
+
+CMakeFiles/calendar.dir/menu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/calendar.dir/menu.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/slava/Net_Projects/calendar/menu.cpp > CMakeFiles/calendar.dir/menu.cpp.i
+
+CMakeFiles/calendar.dir/menu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calendar.dir/menu.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/slava/Net_Projects/calendar/menu.cpp -o CMakeFiles/calendar.dir/menu.cpp.s
 
 # Object files for target calendar
 calendar_OBJECTS = \
 "CMakeFiles/calendar.dir/main.cpp.o" \
 "CMakeFiles/calendar.dir/task.cpp.o" \
-"CMakeFiles/calendar.dir/manager.cpp.o"
+"CMakeFiles/calendar.dir/terminal.cpp.o" \
+"CMakeFiles/calendar.dir/menu.cpp.o"
 
 # External object files for target calendar
 calendar_EXTERNAL_OBJECTS =
 
 calendar: CMakeFiles/calendar.dir/main.cpp.o
 calendar: CMakeFiles/calendar.dir/task.cpp.o
-calendar: CMakeFiles/calendar.dir/manager.cpp.o
+calendar: CMakeFiles/calendar.dir/terminal.cpp.o
+calendar: CMakeFiles/calendar.dir/menu.cpp.o
 calendar: CMakeFiles/calendar.dir/build.make
 calendar: CMakeFiles/calendar.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/slava/Projects/calendar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable calendar"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/slava/Net_Projects/calendar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable calendar"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/calendar.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -123,6 +138,6 @@ CMakeFiles/calendar.dir/clean:
 .PHONY : CMakeFiles/calendar.dir/clean
 
 CMakeFiles/calendar.dir/depend:
-	cd /home/slava/Projects/calendar/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/slava/Projects/calendar /home/slava/Projects/calendar /home/slava/Projects/calendar/build /home/slava/Projects/calendar/build /home/slava/Projects/calendar/build/CMakeFiles/calendar.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/slava/Net_Projects/calendar/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/slava/Net_Projects/calendar /home/slava/Net_Projects/calendar /home/slava/Net_Projects/calendar/build /home/slava/Net_Projects/calendar/build /home/slava/Net_Projects/calendar/build/CMakeFiles/calendar.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/calendar.dir/depend
 

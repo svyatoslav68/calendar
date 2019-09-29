@@ -6,35 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/slava/Projects/calendar/main.cpp
+/home/slava/Net_Projects/calendar/menu.cpp
 iostream
--
-chrono
--
-ctime
 -
 string
 -
-termios.h
+stack
 -
-task.hpp
-/home/slava/Projects/calendar/task.hpp
-manager.hpp
-/home/slava/Projects/calendar/manager.hpp
+menu.hpp
+/home/slava/Net_Projects/calendar/menu.hpp
 
-/home/slava/Projects/calendar/manager.cpp
-string
--
-iostream
--
-cstdio
--
-termios.h
--
-manager.hpp
-/home/slava/Projects/calendar/manager.hpp
-
-/home/slava/Projects/calendar/manager.hpp
-
-/home/slava/Projects/calendar/task.hpp
+/home/slava/Net_Projects/calendar/menu.hpp
 

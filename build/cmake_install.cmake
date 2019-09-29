@@ -1,4 +1,4 @@
-# Install script for directory: /home/slava/Projects/calendar
+# Install script for directory: /home/slava/Net_Projects/calendar
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/slava/Projects/calendar/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/slava/Net_Projects/calendar/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

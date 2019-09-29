@@ -4,9 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/slava/Projects/calendar/main.cpp" "/home/slava/Projects/calendar/build/CMakeFiles/calendar.dir/main.cpp.o"
-  "/home/slava/Projects/calendar/manager.cpp" "/home/slava/Projects/calendar/build/CMakeFiles/calendar.dir/manager.cpp.o"
-  "/home/slava/Projects/calendar/task.cpp" "/home/slava/Projects/calendar/build/CMakeFiles/calendar.dir/task.cpp.o"
+  "/home/slava/Net_Projects/calendar/main.cpp" "/home/slava/Net_Projects/calendar/build/CMakeFiles/calendar.dir/main.cpp.o"
+  "/home/slava/Net_Projects/calendar/menu.cpp" "/home/slava/Net_Projects/calendar/build/CMakeFiles/calendar.dir/menu.cpp.o"
+  "/home/slava/Net_Projects/calendar/task.cpp" "/home/slava/Net_Projects/calendar/build/CMakeFiles/calendar.dir/task.cpp.o"
+  "/home/slava/Net_Projects/calendar/terminal.cpp" "/home/slava/Net_Projects/calendar/build/CMakeFiles/calendar.dir/terminal.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

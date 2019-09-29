@@ -9,7 +9,7 @@
 Terminal::Terminal(){
 	std_in = 0;
 	std_out = 1;
-	std::cout<<	"Инициализация терминала" << std::endl;
+	std::cout<<	"Создание объекта терминала" << std::endl;
 	tcgetattr(std_in, &begin_setting);
 }
 

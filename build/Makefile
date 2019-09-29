@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/slava/Projects/calendar
+CMAKE_SOURCE_DIR = /home/slava/Net_Projects/calendar
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/slava/Projects/calendar/build
+CMAKE_BINARY_DIR = /home/slava/Net_Projects/calendar/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/slava/Projects/calendar/build/CMakeFiles /home/slava/Projects/calendar/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/slava/Net_Projects/calendar/build/CMakeFiles /home/slava/Net_Projects/calendar/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/slava/Projects/calendar/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/slava/Net_Projects/calendar/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -150,32 +150,32 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/calendar.dir/build.make CMakeFiles/calendar.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-manager.o: manager.cpp.o
+menu.o: menu.cpp.o
 
-.PHONY : manager.o
+.PHONY : menu.o
 
 # target to build an object file
-manager.cpp.o:
-	$(MAKE) -f CMakeFiles/calendar.dir/build.make CMakeFiles/calendar.dir/manager.cpp.o
-.PHONY : manager.cpp.o
+menu.cpp.o:
+	$(MAKE) -f CMakeFiles/calendar.dir/build.make CMakeFiles/calendar.dir/menu.cpp.o
+.PHONY : menu.cpp.o
 
-manager.i: manager.cpp.i
+menu.i: menu.cpp.i
 
-.PHONY : manager.i
+.PHONY : menu.i
 
 # target to preprocess a source file
-manager.cpp.i:
-	$(MAKE) -f CMakeFiles/calendar.dir/build.make CMakeFiles/calendar.dir/manager.cpp.i
-.PHONY : manager.cpp.i
+menu.cpp.i:
+	$(MAKE) -f CMakeFiles/calendar.dir/build.make CMakeFiles/calendar.dir/menu.cpp.i
+.PHONY : menu.cpp.i
 
-manager.s: manager.cpp.s
+menu.s: menu.cpp.s
 
-.PHONY : manager.s
+.PHONY : menu.s
 
 # target to generate assembly for a file
-manager.cpp.s:
-	$(MAKE) -f CMakeFiles/calendar.dir/build.make CMakeFiles/calendar.dir/manager.cpp.s
-.PHONY : manager.cpp.s
+menu.cpp.s:
+	$(MAKE) -f CMakeFiles/calendar.dir/build.make CMakeFiles/calendar.dir/menu.cpp.s
+.PHONY : menu.cpp.s
 
 task.o: task.cpp.o
 
@@ -204,6 +204,33 @@ task.cpp.s:
 	$(MAKE) -f CMakeFiles/calendar.dir/build.make CMakeFiles/calendar.dir/task.cpp.s
 .PHONY : task.cpp.s
 
+terminal.o: terminal.cpp.o
+
+.PHONY : terminal.o
+
+# target to build an object file
+terminal.cpp.o:
+	$(MAKE) -f CMakeFiles/calendar.dir/build.make CMakeFiles/calendar.dir/terminal.cpp.o
+.PHONY : terminal.cpp.o
+
+terminal.i: terminal.cpp.i
+
+.PHONY : terminal.i
+
+# target to preprocess a source file
+terminal.cpp.i:
+	$(MAKE) -f CMakeFiles/calendar.dir/build.make CMakeFiles/calendar.dir/terminal.cpp.i
+.PHONY : terminal.cpp.i
+
+terminal.s: terminal.cpp.s
+
+.PHONY : terminal.s
+
+# target to generate assembly for a file
+terminal.cpp.s:
+	$(MAKE) -f CMakeFiles/calendar.dir/build.make CMakeFiles/calendar.dir/terminal.cpp.s
+.PHONY : terminal.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -216,12 +243,15 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... manager.o"
-	@echo "... manager.i"
-	@echo "... manager.s"
+	@echo "... menu.o"
+	@echo "... menu.i"
+	@echo "... menu.s"
 	@echo "... task.o"
 	@echo "... task.i"
 	@echo "... task.s"
+	@echo "... terminal.o"
+	@echo "... terminal.i"
+	@echo "... terminal.s"
 .PHONY : help
 
 

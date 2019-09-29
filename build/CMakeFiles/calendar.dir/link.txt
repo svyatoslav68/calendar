@@ -1,1 +1,1 @@
-/usr/bin/c++     CMakeFiles/calendar.dir/main.cpp.o CMakeFiles/calendar.dir/task.cpp.o CMakeFiles/calendar.dir/manager.cpp.o  -o calendar 
+/usr/bin/c++     CMakeFiles/calendar.dir/main.cpp.o CMakeFiles/calendar.dir/task.cpp.o CMakeFiles/calendar.dir/terminal.cpp.o CMakeFiles/calendar.dir/menu.cpp.o  -o calendar 

@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/calendar.dir/main.cpp.o"
-  "CMakeFiles/calendar.dir/manager.cpp.o"
+  "CMakeFiles/calendar.dir/menu.cpp.o"
   "CMakeFiles/calendar.dir/task.cpp.o"
+  "CMakeFiles/calendar.dir/terminal.cpp.o"
   "calendar"
   "calendar.pdb"
 )
